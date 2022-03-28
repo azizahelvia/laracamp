@@ -193,10 +193,10 @@
                         <div class="col-lg-6 col-12">
                             <div class="table-pricing paket-gila">
                                 <p class="story text-center">
-                                    GILA BELAJAR
+                                    PRO NGODING
                                 </p>
                                 <h1 class="price text-center">
-                                    $350K
+                                    Rp 350K
                                 </h1>
                                 <div class="item-benefit-pricing mb-4">
                                     <img src="{{ asset('assets/images/ic_check.svg')}}" alt="">
@@ -262,7 +262,7 @@
                                     <div class="clear"></div>
                                 </div>
                                 <p>
-                                    <a href="{{ route('checkout') }}" class="btn btn-master btn-primary w-100 mt-3">
+                                    <a href="{{ route('checkout.create', 'pro-ngoding') }}" class="btn btn-master btn-primary w-100 mt-3">
                                         Take This Plan
                                     </a>
                                 </p>
@@ -271,10 +271,10 @@
                         <div class="col-lg-6 col-12">
                             <div class="table-pricing paket-biasa">
                                 <p class="story text-center">
-                                    BARU MULAI
+                                    MULAI NGODING
                                 </p>
                                 <h1 class="price text-center">
-                                    $75K
+                                    Rp 75K
                                 </h1>
                                 <div class="item-benefit-pricing mb-4">
                                     <img src="{{ asset('assets/images/ic_check.svg')}}" alt="">
@@ -308,7 +308,7 @@
                                     <div class="clear"></div>
                                 </div>
                                 <p>
-                                    <a href="{{ route('checkout') }}" class="btn btn-master btn-secondary w-100 mt-3">
+                                    <a href="{{ route('checkout.create', 'mulai-ngoding') }}" class="btn btn-master btn-secondary w-100 mt-3">
                                         Start With This Plan
                                     </a>
                                 </p>
