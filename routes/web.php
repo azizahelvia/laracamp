@@ -27,6 +27,7 @@ Route::get('auth/google/callback', [UserController::class, 'handleProviderCallba
 Route::middleware(['auth'])->group(function() {
     // User dashboard
     Route::get('/dashboard', [HomeController::class, 'dashboard'])->name('dashboard');
+    Route::get('/dashboard/checkout/invoice', [CheckoutController::class. 'invoice'])->name('user.checkout.invoice');
 
     // Checkout routes
     Route::get('/checkout/success', [CheckoutController::class, 'success'])->name('checkout.success');
