@@ -118,6 +118,7 @@ class CheckoutController extends Controller
     public function success()
     {
         return view('checkout.success');
+        
     }
 
     public function invoice(Checkout $checkout)
